@@ -1,0 +1,59 @@
+MorphSem2_TMSEEG
+
+Trigger Description for EEG
+
+e	h	c	w	= 6[0-8]	
+e	l	c	w	= 8[0-8]
+f	a	c	w	= 11[0-8]
+f	c	c	w	= 13[0-8]
+e	h	c	n	= 16[0-8]
+e	l	c	n	= 18[0-8]
+f	a	c	n	= 21[0-8]
+f	c	c	n	= 23[0-8]
+
+
+e = experimental
+f = filler
+
+h = high cloze
+l = low cloze
+
+a,c = cloze rating for filler
+
+c = congruent
+
+w = word 
+n = non-word
+
+
+Last Digit (= 0-8) indicates position in sentence
+
+0 = Onset of Wav File 
+
+2 = Onset of Sound (Stimulus begins with silence)
+
+5 = Onset of Verb (+ triggers TMS pulse, pulse 1)
+
+1 = TMS pulse (pulse 2 and 3)
+
+6 = Onset of Article
+
+8 = Onset of Noun (word or pseudoword; critical word)
+
+
+
+Examples
+
+85 	= Condition: experimental / low expectancy / congruent gender / words - Position: Onset of the Verb (+ triggers a TMS pulse)
+
+68	= Condition: experimental / high expectancy / congruent gender/ words - Position: Onset of Noun. 
+
+
+Subject Balancing
+
+Left/Right Response: counterbalanced
+
+Odd subjects --> Left = Word / Right = Pseudoword
+Even subject --> Left = Pseudoword / Right = Word
+
+Gender: Random
