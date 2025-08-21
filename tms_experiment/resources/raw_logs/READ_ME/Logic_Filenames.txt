@@ -1,0 +1,7 @@
+Example: 01_1_b1_s1_MorphSem2_TMSEEG.log
+
+01 = subject number (1, 2, 3 etc. - up to 28)
+1 = session number (1, 2)
+b1 = block number (1, 2, 3)
+s1 = first sham / s2 = second sham / f = pIFG / t = pSTG
+

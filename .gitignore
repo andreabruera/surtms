@@ -1,9 +1,13 @@
-raw_logs/
 surpreegtms/
-durations/
+surpreeg/
+*/results
+*/models_representations
+*/models_sims
+*/raw_logs
 
 
 # Byte-compiled / optimized / DLL files
+*/__pycache__/
 __pycache__/
 *.py[codz]
 *$py.class
